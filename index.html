@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>${TM_FILENAME_BASE}</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+
+    <input type="text" id="txt">
+    <button  onclick="display()">click</button>
+    <h1 id="value"></h1>
+
+    <h1 id="nme"></h1>
+    <script>
+
+        function display()
+        {
+            var text=document.getElementById("txt").value
+            document.getElementById("value").innerHTML=text
+
+        }
+    </script>
+
+
+<script>
+   let name="sandra"
+   document.getElementById("nme").innerHTML=name;
+</script>
+
+<h1 id="sum"></h1>
+<!-- find sum of two numbers-->
+<h2 id="name"></h2>
+
+<script>
+
+  let a=6;
+  let b=9;
+  let sum=a+b;
+  document.getElementById("sum").innerHTML=sum;
+  let pere=["sandra","steevo","paru"]
+  document.getElementById("name").innerHTML=pere[1];
+
+</script>
+
+
+  </body>
+</html>
